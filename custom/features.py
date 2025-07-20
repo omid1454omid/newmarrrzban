@@ -1,0 +1,1 @@
+# Reseller volume control and user template fix

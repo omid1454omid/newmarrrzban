@@ -1,0 +1,11 @@
+
+version: '3.8'
+services:
+  marzban:
+    image: ghcr.io/marzban-custom/panel:full
+    container_name: marzban-full
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data:/var/lib/marzban
